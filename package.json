@@ -28,6 +28,9 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
+  "resolutions": {
+    "@vercel/og": "^0.6.3"
+  },
   "pnpm": {
     "overrides": {
       "@vercel/og": "^0.6.3"
