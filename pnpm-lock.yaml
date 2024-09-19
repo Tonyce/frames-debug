@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@vercel/og':
+    specifier: ^0.6.3
+    version: 0.6.3
   frames.js:
     specifier: ^0.19.0
     version: 0.19.0(@cloudflare/workers-types@4.20240821.1)(@lens-protocol/client@2.3.1)(@types/express@4.17.21)(@xmtp/frames-validator@0.6.2)(next@14.2.7)(react-dom@18.3.1)(react@18.3.1)(typescript@5.5.4)(zod@3.23.8)
@@ -1857,8 +1860,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/og@0.6.2:
-    resolution: {integrity: sha512-OTe0KE37F5Y2eTys6eMnfopC+P4qr2ooXUTFyFPTplYSPwowmFk/HLD1FXtbKLjqsIH0SgekcJWad+C5uX4nkg==}
+  /@vercel/og@0.6.3:
+    resolution: {integrity: sha512-aoCrC9FqkeA+WEEb9CwSmjD0rGlFeNqbUsI41JPmKWR9Hx6FFn86tvH96O5HZMF6VAXTGHxa3nPH3BokROpdgA==}
     engines: {node: '>=16'}
     dependencies:
       '@resvg/resvg-wasm': 2.4.0
@@ -3721,7 +3724,7 @@ packages:
       '@cloudflare/workers-types': 4.20240821.1
       '@lens-protocol/client': 2.3.1(@lens-protocol/metadata@1.2.0)(@types/react@18.3.5)(ethers@6.13.2)(react@18.3.1)
       '@types/express': 4.17.21
-      '@vercel/og': 0.6.2
+      '@vercel/og': 0.6.3
       '@xmtp/frames-validator': 0.6.2(typescript@5.5.4)(zod@3.23.8)
       cheerio: 1.0.0
       next: 14.2.7(react-dom@18.3.1)(react@18.3.1)
