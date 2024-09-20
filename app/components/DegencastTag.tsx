@@ -19,9 +19,9 @@ export default function DegencastTag({
         right: "0",
       }}
     >
-      <div tw="flex items-center justify-end gap-[10px] px-[28px]">
+      <div tw="flex items-center justify-end  px-[28px]">
         <div
-          tw="flex item-center"
+          tw="flex items-center"
           style={{
             backgroundColor: "#F2B949",
             borderRadius: "30px",

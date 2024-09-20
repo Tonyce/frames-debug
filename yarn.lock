@@ -391,7 +391,7 @@
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
-"@frames.js/debugger@^0.3.11":
+"@frames.js/debugger@0.3.13":
   version "0.3.13"
   resolved "https://registry.npmjs.org/@frames.js/debugger/-/debugger-0.3.13.tgz#96af9670cca023efd13b2b26deed3efe15e96d19"
   integrity sha512-WtbnQTxCQ0aK6fQ1qBkxLkK9SY0cIx49XXfRkV8LQV7sLh0dZBBXRcECmtvQdOlAyKg9CczqjBsBTYtvuxAJkA==
@@ -1388,9 +1388,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^18":
-  version "18.3.7"
-  resolved "https://registry.npmjs.org/@types/react/-/react-18.3.7.tgz#6decbfbb01f8d82d56ff5403394121940faa6569"
-  integrity sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==
+  version "18.3.8"
+  resolved "https://registry.npmjs.org/@types/react/-/react-18.3.8.tgz#1672ab19993f8aca7c7dc844c07d5d9e467d5a79"
+  integrity sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -1451,7 +1451,7 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@vercel/og@^0.6.2", "@vercel/og@^0.6.3":
+"@vercel/og@^0.6.3":
   version "0.6.3"
   resolved "https://registry.npmjs.org/@vercel/og/-/og-0.6.3.tgz#7d59572acb12df28637c226343fce7078c306b64"
   integrity sha512-aoCrC9FqkeA+WEEb9CwSmjD0rGlFeNqbUsI41JPmKWR9Hx6FFn86tvH96O5HZMF6VAXTGHxa3nPH3BokROpdgA==
@@ -3189,12 +3189,12 @@ form-data@^4.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
-frames.js@^0.19.0:
-  version "0.19.1"
-  resolved "https://registry.npmjs.org/frames.js/-/frames.js-0.19.1.tgz#fe0257e5e7bc6db119052909f1bbc3a471e4783c"
-  integrity sha512-4u4RWS7pyHtR+86IvAZyr+eXOUB2ySns5wTH0gowNb8+SExbaobwEO1yKOAPoGNB+Ed9bomHQjskiPKsfXE+xg==
+frames.js@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.npmjs.org/frames.js/-/frames.js-0.19.2.tgz#483963f2c7756f7dab20ce3df3a68462d6ab91cf"
+  integrity sha512-reWqbwk595LmmfIqXsAv+LSl35LNq7nzBC5ekXzp2/WxWeYmqAoe51laN5sR9KUdlVB2xtljfQX8184f/U4chw==
   dependencies:
-    "@vercel/og" "^0.6.2"
+    "@vercel/og" "^0.6.3"
     cheerio "^1.0.0-rc.12"
     protobufjs "^7.2.6"
     viem "^2.7.8"
@@ -5788,9 +5788,9 @@ viem@2.7.15:
     ws "8.13.0"
 
 viem@^2.7.8:
-  version "2.21.9"
-  resolved "https://registry.npmjs.org/viem/-/viem-2.21.9.tgz#5676f81b07286ad88852a239e1eeb18c7f9b40a6"
-  integrity sha512-fWPDX2ABEo/mLiDN+wsmYJDJk0a/ZCafquxInR2+HZv/7UTgHbLgjZs4SotpEeFAYjgVThJ7A9TPmrRjaaYqvw==
+  version "2.21.10"
+  resolved "https://registry.npmjs.org/viem/-/viem-2.21.10.tgz#a6c6fb201512320946f1266321df74ac2e6b1d2a"
+  integrity sha512-n+BKNabWI0k2i7PB4UEdxgHHpQmMeDk+2X9093l/yU0NLUjIgiazybfD1BksGwbiIRk/WXr+aoRqKOExxRDxWA==
   dependencies:
     "@adraffy/ens-normalize" "1.10.0"
     "@noble/curves" "1.4.0"

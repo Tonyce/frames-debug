@@ -43,10 +43,6 @@ const handleRequest = frames(async (ctx) => {
           src={`${DEGENCAST_API}/3r-farcaster/cast-image?castHash=${castHash}`}
           alt=""
         />
-        <DegencastTag
-          tokenUint={nftTokenUnit || "100000"}
-          progress={launchProgress}
-        />
         <div tw="flex absolute">{Date.now()}</div>
       </div>
     ),
