@@ -22,6 +22,7 @@ const handleRequest = frames(async (ctx) => {
     );
     castInfo = await castInfoResp.json();
   } catch (err) {
+    console.error("Error fetching castInfo", err);
     throw error("Error fetching castInfo");
   }
   launchProgress = castInfo?.data?.launchProgress || "0%";
